@@ -10,4 +10,17 @@ for example
 for example  
 ![def](image/proxy_setting.png)
 
+open /etc/profile, add this
+
+export http_proxy=http://proxy_ip:port     #代表http代理
+
+export https_proxy=http://proxy_ip:port  #代表https代理
+
+export ftp_proxy=http://proxy_ip:port  #代表ftp代理
+
+
+
+然后执行source /etc/profile 即可。
+
+
 # 4. have fun :)
